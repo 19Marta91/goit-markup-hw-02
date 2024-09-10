@@ -16,6 +16,7 @@ body {
     color: #434455;
     background-color: #fff;
 }
+/*----- header---*/
 
 .page-logo-web {
     font-family: "Raleway", sans-serif;
@@ -29,42 +30,28 @@ body {
 .page-logo-studio {
 color: #2e2f42;
 }
-
-.menu-item {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-.menu-item:hover,
-.menu-item:focus {
-    color: #404bbf;
-}
-
-.menu-item-studio {
+.menu-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2e2f42;  
 }
-
-.menu-item-studio:hover,
-.menu-item-studio:focus {
+.menu-link:hover,
+.menu-link:focus {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #404bbf;  
 }
 
 .head-address {
    font-style: normal; 
 }
+
 
 .menu-address-item {
     font-weight: 400;
@@ -113,7 +100,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-text-transform: initial;
+text-transform: capitalize;
 color: #2e2f42;
 }
 
